@@ -23,7 +23,7 @@ Copy the 16-character password shown in the popup
 Step 3: Configure application.properties
 
 Paste the generated app password:
-
+```
 spring.application.name=OTP
 
 spring.mail.host=smtp.gmail.com
@@ -33,7 +33,7 @@ spring.mail.password=xxxx xxxx xxxx xxxx
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.default-encoding=UTF-8
-
+```
 🚀 Features
 
 Generates a 5-digit OTP
